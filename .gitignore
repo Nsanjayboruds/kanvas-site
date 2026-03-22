@@ -16,7 +16,6 @@ go.work
 go.work.sum
 
 # env file
-.env
 
 # Binaries for programs and plugins
 *.exe
@@ -55,7 +54,6 @@ dist/**
 
 # IDE
 **/.idea
-.vscode/** */
 .cusorignore
 *.config
 
@@ -72,3 +70,4 @@ resources/
 # Local AI coding assistant config (tool-specific, per-contributor)
 # Claude Code users: run `make setup-claude` to bootstrap from contrib/claude/
 .claude/
+config.bat
